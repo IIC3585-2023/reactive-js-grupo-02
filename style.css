@@ -95,3 +95,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.map-container {
+  position: absolute;
+  top: 70px;
+  background-image: "map.jpeg";
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25px 20px 20px 20px;
+}
