@@ -99,8 +99,16 @@ button:focus-visible {
 .map-container {
   position: absolute;
   top: 70px;
-  background-image: "map.jpeg";
+  padding: 25px 20px 20px 20px;
+  width: 900px;
+  height: 600px;
+}
+
+#grid {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  background-image: url("map.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 25px 20px 20px 20px;
 }

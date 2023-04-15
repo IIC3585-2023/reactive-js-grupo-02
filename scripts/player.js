@@ -1,4 +1,4 @@
-export default player = {
+export const player = {
     sprite: "player.png",
     x: 0,
     y: 0,
