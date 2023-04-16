@@ -4,6 +4,9 @@
 - Felipe C. 
 - José J.
 
+# Deployment
+Tarea 2 se encuentra desplegada en https://spontaneous-syrniki-fc8a2d.netlify.app/
+
 ## Descripción
 Proyecto hecho exclusivamente con el DOM, utilizando vite para manejar los módulos de javascript. \
 \
