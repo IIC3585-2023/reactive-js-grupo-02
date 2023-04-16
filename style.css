@@ -106,8 +106,8 @@ button:focus-visible {
 
 #grid {
   position: absolute;
-  width: 900px;
-  height: 600px;
+  width: 840px;
+  height: 450px;
   background-image: url("map.jpeg");
   background-repeat: no-repeat;
   background-size: contain;

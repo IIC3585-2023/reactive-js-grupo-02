@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grupo 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman</title>
+    <script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script>
   </head>
   <body>
-    <div class="content-container">
-      <div class="map-container">
-        <canvas id="grid"></canvas>
-
+      <div class="map">
+      <canvas id="map" width="840" height="450"></canvas>
+      <script type="module" src="main.js"></script>
     </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    </body>
+  <style>
+    body {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: black;
+      color: white;
+      height: 80vh;
+      width: 99%;
+    }
+    .map {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #map {
+      position: absolute;
+      top: 70px;
+      background-image: url("map.jpeg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 25px 20px 20px 20px;
+    }
+  </style>
 </html>
